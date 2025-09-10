@@ -1,0 +1,12 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    { "type": "TextBlock", "text": "Monitor Q&A", "weight": "Bolder", "size": "Medium" },
+    { "type": "Input.Text", "id": "question", "placeholder": "Enter your question for the meeting" }
+  ],
+  "actions": [
+    { "type": "Action.Submit", "title": "Submit Question" }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

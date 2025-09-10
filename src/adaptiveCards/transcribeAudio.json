@@ -1,0 +1,12 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    { "type": "TextBlock", "text": "Transcribe Meeting Audio", "weight": "Bolder", "size": "Medium" },
+    { "type": "Input.Text", "id": "audioUrl", "placeholder": "Enter audio file URL for transcription" }
+  ],
+  "actions": [
+    { "type": "Action.Submit", "title": "Transcribe" }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

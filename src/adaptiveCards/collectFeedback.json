@@ -1,0 +1,12 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    { "type": "TextBlock", "text": "Collect Feedback / Poll", "weight": "Bolder", "size": "Medium" },
+    { "type": "Input.Text", "id": "feedback", "placeholder": "Enter your feedback or poll response" }
+  ],
+  "actions": [
+    { "type": "Action.Submit", "title": "Submit Feedback" }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

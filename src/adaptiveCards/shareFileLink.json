@@ -1,0 +1,12 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    { "type": "TextBlock", "text": "Share File or Link", "weight": "Bolder", "size": "Medium" },
+    { "type": "Input.Text", "id": "fileUrl", "placeholder": "Enter file or link URL" }
+  ],
+  "actions": [
+    { "type": "Action.Submit", "title": "Share" }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

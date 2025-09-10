@@ -1,0 +1,12 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    { "type": "TextBlock", "text": "Take Notes / Minutes", "weight": "Bolder", "size": "Medium" },
+    { "type": "Input.Text", "id": "notes", "placeholder": "Enter meeting notes or minutes" }
+  ],
+  "actions": [
+    { "type": "Action.Submit", "title": "Save Notes" }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

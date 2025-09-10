@@ -1,0 +1,12 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    { "type": "TextBlock", "text": "Assign Tasks to Attendees", "weight": "Bolder", "size": "Medium" },
+    { "type": "Input.Text", "id": "taskDetails", "placeholder": "Enter task details and assignees" }
+  ],
+  "actions": [
+    { "type": "Action.Submit", "title": "Assign Task" }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

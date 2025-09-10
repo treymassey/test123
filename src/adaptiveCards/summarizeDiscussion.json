@@ -1,0 +1,12 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    { "type": "TextBlock", "text": "Summarize Meeting Discussion", "weight": "Bolder", "size": "Medium" },
+    { "type": "Input.Text", "id": "discussionText", "placeholder": "Paste meeting discussion or notes here" }
+  ],
+  "actions": [
+    { "type": "Action.Submit", "title": "Summarize" }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

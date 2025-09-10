@@ -1,0 +1,35 @@
+env/.env.dev
+env/.env.local.user
+.DS_Store
+build
+appPackage/build
+
+# dependencies
+node_modules/
+
+# misc
+.env
+.env.local
+.env.*.local
+.npmrc
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.deployment
+.DS_Store
+
+# build
+lib/
+
+# Local data
+.localConfigs.playground
+.localConfigs
+.notification.localstore.json
+.notification.playgroundstore.json
+
+# Dev tool directories
+/devTools/
+
+# TeamsFx / Microsoft 365 Agents local environment files (may contain secrets)
+m365agents.local.yml

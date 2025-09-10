@@ -1,0 +1,12 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    { "type": "TextBlock", "text": "Automate Follow-up Actions", "weight": "Bolder", "size": "Medium" },
+    { "type": "Input.Text", "id": "followupDetails", "placeholder": "Enter follow-up details or actions" }
+  ],
+  "actions": [
+    { "type": "Action.Submit", "title": "Automate" }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}
